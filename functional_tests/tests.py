@@ -58,7 +58,7 @@ class NewVisitorTest(LiveServerTestCase):
         self.check_for_row_in_list_table('2: Use peacock feathers to make a fly')
 
         # Now a new user, Frank, comes along to the site.
-        self.browser.quite()
+        self.browser.quit()
         self.browser = webdriver.Firefox()
 
         # Frank visits the home page. There is no sign of Susanne's list

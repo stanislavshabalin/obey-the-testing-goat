@@ -4,6 +4,9 @@ from django.contrib import admin
 urlpatterns = patterns('',
 
     url(r'^$', 'lists.views.home_page', name='home'),
+    url(r'^lists/one-and-only-list-ever/$', 'lists.views.view_list',
+        name='view_list'
+    ),
 
     # url(r'^admin/', include(admin.site.urls)),
 )
