@@ -26,6 +26,8 @@ TEMPLATE_DEBUG = True
 
 ALLOWED_HOSTS = []
 
+ADMINS = (('Stanislav Shabalin', 'services@voxpuibr.com'))
+
 
 # Application definition
 
